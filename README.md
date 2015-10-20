@@ -3,7 +3,9 @@
 **[jsreport](https://github.com/jsreport/jsreport) extension serving static scripts and styles like jquery or bootstrap from the pre-configured directory.**
 
 1.
-> npm install jsreport-static-resources
+```
+npm install jsreport-static-resources
+```
 
 2.
 Copy the scripts, styles or other static resources to the jsreport data directory `data\staticResources`
