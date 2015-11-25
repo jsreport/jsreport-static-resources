@@ -2,6 +2,11 @@
   "name": "jsreport-static-resources",
   "version": "0.1.0",
   "description": "jsreport extension allowing to reference static scripts from an external directory",
+  "homepage": "https://github.com/jsreport/jsreport-static-resources",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jsreport/jsreport-static-resources.git"
+  },
   "keywords": [
     "jsreport",
     "resources"
