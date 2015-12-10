@@ -1,4 +1,5 @@
 #jsreport-static-resources
+[![NPM Version](http://img.shields.io/npm/v/jsreport-static-resources.svg?style=flat-square)](https://npmjs.com/package/jsreport-static-resources)
 
 **[jsreport](https://github.com/jsreport/jsreport) extension serving static scripts and styles like jquery or bootstrap from the pre-configured directory.**
 
@@ -33,4 +34,12 @@ Optionally override the path to the static resources directory inside the jsrepo
   }
   ...
 }
+```
+
+##jsreport-core
+You can apply this extension also manually to [jsreport-core](https://github.com/jsreport/jsreport-core)
+
+```js
+var jsreport = require('jsreport-core')()
+jsreport.use(require('jsreport-static-resources')())
 ```
