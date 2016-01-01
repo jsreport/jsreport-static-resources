@@ -12,7 +12,8 @@
     "resources"
   ],
   "dependencies": {
-    "mkdirp": "^0.5.1"
+    "mkdirp": "^0.5.1",
+    "serve-static": "1.10.0"
   },
   "author": "Jan Blaha",
   "devDependencies": {
